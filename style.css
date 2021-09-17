@@ -237,8 +237,44 @@ body {
     flex-wrap: wrap;
 }
 .projects__item {
-    width: 25%;
     height: auto;
+    max-width: 25%;
+}
+.projects__item img {
+    width: 100%;
+    height: 100%;
+}
+.projects__item {
+    position: relative;
+}
+.projects__item .projects__item__hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+
+.projects__item:hover img {
+    filter: invert(20%) sepia(70%) saturate(250%) hue-rotate(170deg)
+        brightness(60%) contrast(95%);
+    -webkit-filter: invert(20%) sepia(70%) saturate(250%) hue-rotate(170deg)
+        brightness(60%) contrast(95%);
+}
+.projects__item .projects__item__hover img {
+    filter: none;
+    margin: 0;
+    color: white;
+    -webkit-filter: none;
+}
+.projects__item:hover .projects__item__hover {
+    opacity: 1;
 }
 #clients {
     margin: 0 auto;
@@ -376,5 +412,6 @@ textarea {
     -ms-transform: translateY(5px);
     -o-transform: translateY(5px);
 }
+
 @media (max-width: 1000px) {
 }
