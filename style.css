@@ -418,6 +418,63 @@ textarea {
     -ms-transform: translateY(5px);
     -o-transform: translateY(5px);
 }
-
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+    .projects__item {
+        max-width: 50%;
+    }
+}
+@media (max-width: 800px) {
+    .first-screen__image {
+        display: none;
+    }
+    .first-screen__content {
+        padding-left: 3rem;
+        text-align: center;
+    }
+    .first-screen__content h1 {
+        line-height: 60px;
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+    .first-screen__content p {
+        padding-bottom: 2rem;
+    }
+    .first-screen__content button {
+        align-self: center;
+    }
+    #first-screen {
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+    }
+    #about {
+        padding: 4rem 1rem 4rem 1rem;
+    }
+    #numbers {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .numbers__item {
+        padding-bottom: 1rem;
+    }
+    #skills {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    #video {
+        padding: 3rem 1rem 3rem 1rem;
+    }
+    .video__play {
+        width: 85%;
+        padding: 0 0 45% 0;
+    }
+    #clients {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+    .form__inputs form {
+        min-width: 400px;
+    }
+    .form__inputs__user-info input {
+        margin-top: 1rem;
+        width: 100%;
+    }
 }
