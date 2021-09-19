@@ -105,7 +105,7 @@
 
 /* 48em = 768px */
 
-@media (min-width: 800px) {
+@media (min-width: 820px) {
     .header__nav li {
         float: left;
     }
@@ -119,5 +119,10 @@
     }
     .header__nav .menu-icon {
         display: none;
+    }
+}
+@media (max-width: 820px) {
+    .header {
+        justify-content: space-between;
     }
 }
