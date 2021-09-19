@@ -154,8 +154,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
+    justify-content: space-between;
 }
 .skills__list {
     display: flex;
@@ -181,7 +180,7 @@ body {
     top: -1.26rem;
 }
 .skills__photo {
-    max-width: 28rem;
+    width: 450px;
     height: auto;
 }
 #video {
@@ -438,6 +437,7 @@ textarea {
         padding-bottom: 1rem;
     }
     #skills {
+        flex-direction: column-reverse;
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
@@ -458,8 +458,12 @@ textarea {
         margin-top: 1rem;
         width: 100%;
     }
-
-    .skills__list__item img {
-        height: auto;
-    }
+}
+@media (max-width: 500px) {
+    /* .form__title {
+        max-width: none;
+    } */
+    /* section {
+        width: 100%;
+    } */
 }
