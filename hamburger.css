@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.menu__tag {
+.header__nav a {
     display: block;
     padding: 15px 20px;
     text-decoration: none;
@@ -84,7 +84,7 @@
 }
 
 .header__nav .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 250px;
 }
 .header__nav .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
@@ -135,5 +135,11 @@
     .header__nav a {
         transition: none;
         padding: 20px 10px;
+    }
+}
+@media (max-width: 680px) {
+    .header__nav a {
+        transition: none;
+        padding: 15px 20px;
     }
 }
