@@ -465,6 +465,8 @@ textarea {
 @media (max-width: 1000px) {
     .header {
         justify-content: space-between;
+        padding-top: 0.6rem;
+        padding-bottom: 0.3rem;
     }
 }
 @media (max-width: 600px) {
@@ -480,11 +482,5 @@ textarea {
     .form__inputs button {
         font-size: 0.7rem;
         padding: 0.7rem 0.8rem;
-    }
-}
-@media (max-width: 1000px) {
-    .header {
-        padding-top: 0.6rem;
-        padding-bottom: 0.3rem;
     }
 }
