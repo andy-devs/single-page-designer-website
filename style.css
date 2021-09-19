@@ -482,3 +482,9 @@ textarea {
         padding: 0.7rem 0.8rem;
     }
 }
+@media (max-width: 1000px) {
+    .header {
+        padding-top: 0.6rem;
+        padding-bottom: 0.3rem;
+    }
+}
