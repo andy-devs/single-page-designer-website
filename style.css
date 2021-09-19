@@ -168,7 +168,7 @@ body {
     font-size: 1.3rem;
 }
 #skills {
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 1rem 5rem 1rem;
     max-width: 1000px;
     margin: auto;
     display: flex;
@@ -179,7 +179,7 @@ body {
 .skills__list {
     display: flex;
     flex-direction: column;
-    padding: 3rem 0 0 1rem;
+    padding: 3rem 0 0 0;
 }
 .skills__list h2 {
     font-weight: 500;
@@ -199,7 +199,7 @@ body {
     position: relative;
     top: -1.26rem;
 }
-.skills__photo img {
+.skills__photo {
     max-width: 28rem;
     height: auto;
 }
@@ -476,5 +476,9 @@ textarea {
     .form__inputs__user-info input {
         margin-top: 1rem;
         width: 100%;
+    }
+
+    .skills__list__item img {
+        height: auto;
     }
 }
