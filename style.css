@@ -57,17 +57,17 @@ body {
 #first-screen {
     display: flex;
     justify-content: center;
-    padding: 11rem 2rem 8rem 0;
+    padding: 11rem 2rem 7rem 0;
     margin: auto;
     max-width: 1000px;
 }
 .first-screen__image {
-    padding: 0 0 2rem 0;
+    padding: 0 6rem 2rem 1rem;
 }
 .first-screen__content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .first-screen__content h1 {
