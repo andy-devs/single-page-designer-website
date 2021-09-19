@@ -469,6 +469,12 @@ textarea {
         padding-bottom: 0.3rem;
     }
 }
+@media (max-width: 639.9px) {
+    .header {
+        padding-top: 0.2rem;
+        padding-bottom: 0.1rem;
+    }
+}
 @media (max-width: 600px) {
     .form__inputs form {
         min-width: 100px;
