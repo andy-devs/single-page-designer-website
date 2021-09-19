@@ -17,6 +17,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="hamburger.css" />
         <title>Designer's site</title>
     </head>
     <body>
@@ -24,7 +25,11 @@
             <header class="header">
                 <div class="header__logo"><p>WD</p></div>
                 <div class="header__nav">
-                    <ul>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"
+                        ><span class="navicon"></span
+                    ></label>
+                    <ul class="menu">
                         <li><a href="#first-screen">ГЛАВНАЯ </a></li>
                         <li><a href="#about">ОБ АВТОРЕ</a></li>
                         <li><a href="#video">ПРОЦЕСС</a></li>
