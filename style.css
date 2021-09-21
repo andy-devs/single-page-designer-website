@@ -129,7 +129,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 .numbers__item {
     display: flex;
@@ -408,7 +407,7 @@ textarea {
         max-width: 50%;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .header li {
         padding-right: 0.4rem;
     }
@@ -439,9 +438,6 @@ textarea {
     #numbers {
         padding-top: 3rem;
         padding-bottom: 3rem;
-    }
-    .numbers__item {
-        padding-bottom: 1rem;
     }
     #skills {
         align-items: center;
@@ -500,5 +496,22 @@ textarea {
     .form__inputs button {
         font-size: 0.7rem;
         padding: 0.7rem 0.8rem;
+    }
+}
+@media (max-width: 1000px) {
+    .first-screen__image {
+        padding-right: 2.3rem;
+    }
+}
+@media (max-width: 850px) {
+    .numbers__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+    }
+    .numbers__item {
+        width: 50%;
+        padding-bottom: 1rem;
     }
 }
