@@ -515,3 +515,8 @@ textarea {
         padding-bottom: 1rem;
     }
 }
+@media (max-width: 500px) {
+    .numbers__item__content {
+        padding-left: 0.3rem;
+    }
+}
