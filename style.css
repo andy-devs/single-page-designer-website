@@ -520,3 +520,15 @@ textarea {
         padding-left: 0.3rem;
     }
 }
+@media (max-width: 605px) {
+    .clients__item {
+        padding-left: 0rem;
+    }
+}
+@media (max-width: 380px) {
+    .numbers__container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        place-items: center;
+    }
+}
